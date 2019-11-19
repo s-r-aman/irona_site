@@ -52,7 +52,7 @@ export default function Upload() {
       })
   }
   const fileUpload = file => {
-    const url = "http://localhost:3000/upload"
+    const url = "http://45.77.140.94:3000/upload"
     const formData = new FormData()
     formData.append("image", file)
     const config = {
